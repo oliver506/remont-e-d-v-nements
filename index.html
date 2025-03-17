@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Système de Signalement des évènements indésirables et anomalie à l'endroit de la PNDP</title>
+    <meta name="description" content="Système de signalement des événements indésirables pour améliorer la qualité des soins dans notre clinique">
+    <meta name="keywords" content="signalement, événements indésirables, qualité, clinique, sécurité des patients">
+    <meta property="og:title" content="Système de Signalement des évènements indésirables et anomalie à l'endroit de la PNDP">
+    <meta property="og:description" content="Système de signalement des événements indésirables pour améliorer la qualité des soins dans notre clinique">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Système de Signalement des évènements indésirables et anomalie à l'endroit de la PNDP">
+    <meta name="twitter:description" content="Système de signalement des événements indésirables pour améliorer la qualité des soins dans notre clinique">
+    
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/form.css" rel="stylesheet">
+    <link href="styles/dashboard.css" rel="stylesheet">
+</head>
+<body>
+    <h1 id="main-title" class="text-2xl font-bold text-center py-4 bg-white shadow">Système de Signalement</h1>
+    <div id="root"></div>
+    <h2>Média</h2>
+    <audio controls="controls" autoplay="autoplay">
+        <source src="EI.mp3.mp3">
+    </audio>
+    
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="components/IncidentForm.js"></script>
+    <script type="text/babel" src="components/FileUpload.js"></script>
+    <script type="text/babel" src="components/AdminDashboard.js"></script>
+    <script type="text/babel" src="components/IncidentList.js"></script>
+    <script type="text/babel" src="components/IncidentStats.js"></script>
+    <script type="text/babel" src="components/Notification.js"></script>
+    <script type="text/babel" src="utils/validation.js"></script>
+    <script type="text/babel" src="utils/export.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
